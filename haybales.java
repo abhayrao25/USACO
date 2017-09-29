@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class main {
+public class haybales {
     public static boolean isAllEqual(int[] a){
         for(int i=1; i<a.length; i++){
             if(a[0] != a[i]){
