@@ -17,7 +17,7 @@ public class main {
 
     public static void main (String [] args) throws FileNotFoundException {
         int answer =0;
-        Scanner n = new Scanner(new File("C:\\Users\\TempAdmin2\\IdeaProjects\\pr1\\src\\haybales.in"));
+        Scanner n = new Scanner(new File("haybales.in"));
         int piles = n.nextInt();
         int[] height = new int[piles];
         for (int i=0; i<piles; i++)
