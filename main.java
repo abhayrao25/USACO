@@ -1,3 +1,4 @@
+//http://www.usaco.org/index.php?page=viewproblem2&cpid=94
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
@@ -29,7 +30,6 @@ public class main {
                 System.out.println(Arrays.toString(height));
                 Arrays.sort(height);
                 answer++;
-                System.out.println(answer);
             }
         }
         System.out.println(answer);
